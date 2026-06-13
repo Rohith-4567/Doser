@@ -506,10 +506,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "./",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -746,7 +750,7 @@
         "uuid": "3d87c741-aedb-4217-929e-9b442255b4c1"
       }
     ],
-    "used_designators": "U1-10,J1-9,R1-25,#FLG1-3,L1,D1-9,BT1,#PWR1-86,C1-15,M1,Q1,SC1,SW1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

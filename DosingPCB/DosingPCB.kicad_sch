@@ -6441,12 +6441,6 @@
 		(uuid "1d71a817-0201-4bc6-a2e8-507163f4e824")
 	)
 	(junction
-		(at 31.75 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21e89400-a403-45fc-b627-4243220f910d")
-	)
-	(junction
 		(at 52.07 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6477,12 +6471,6 @@
 		(uuid "62809f4e-ae7e-4a7c-a046-c0de4a71a840")
 	)
 	(junction
-		(at 52.07 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63af9f94-6277-4fff-a3c4-9fb08b073465")
-	)
-	(junction
 		(at 77.47 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6493,6 +6481,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6baa6162-63d9-4c0a-87d6-ea36a9e5f5ed")
+	)
+	(junction
+		(at 31.75 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eeafd5f-2822-417a-b38a-7b725251027f")
+	)
+	(junction
+		(at 52.07 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "852f114b-2c46-4fcc-ab80-714fd303ef3d")
 	)
 	(junction
 		(at 198.12 116.84)
@@ -6984,6 +6984,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 26.67) (xy 31.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558c3b49-e440-4d3c-be88-f4ab10f72ced")
+	)
+	(wire
+		(pts
 			(xy 52.07 99.06) (xy 62.23 99.06)
 		)
 		(stroke
@@ -7384,7 +7394,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 24.13) (xy 52.07 26.67)
+			(xy 52.07 21.59) (xy 52.07 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7761,6 +7771,16 @@
 			(type default)
 		)
 		(uuid "fc486530-8197-4f32-9f1d-ecfd633b0eb1")
+	)
+	(label "5V"
+		(at 31.75 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e501cb6d-579e-40b8-85ad-df01ae72fd47")
 	)
 	(global_label "Temp_SDA"
 		(shape input)
@@ -10078,7 +10098,7 @@
 		(dnp no)
 		(uuid "5710e3b4-8606-480d-8e9f-57a91b0c8255")
 		(property "Reference" "SW1"
-			(at 30.48 121.9199 90)
+			(at 14.732 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10089,7 +10109,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 124.4599 90)
+			(at 14.732 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10099,7 +10119,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_CK_KSC"
 			(at 21.59 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10801,7 +10821,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 52.07 24.13 0)
+		(at 52.07 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10812,7 +10832,7 @@
 		(fields_autoplaced yes)
 		(uuid "824310c9-a0f7-4d68-a751-b16c6fc95414")
 		(property "Reference" "#PWR08"
-			(at 52.07 27.94 0)
+			(at 52.07 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10823,7 +10843,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 52.07 19.05 0)
+			(at 52.07 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10833,7 +10853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 24.13 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10844,7 +10864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 24.13 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10855,7 +10875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 52.07 24.13 0)
+			(at 52.07 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12020,7 +12040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 200.66 89.535 0)
 			(hide yes)
 			(show_name no)
@@ -12070,7 +12090,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 31.75 29.21 0)
+		(at 31.75 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12080,7 +12100,7 @@
 		(dnp no)
 		(uuid "b740fccb-9624-483c-a923-ca82602b3d49")
 		(property "Reference" "#PWR02"
-			(at 31.75 33.02 0)
+			(at 31.75 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12091,7 +12111,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 29.464 24.638 0)
+			(at 29.464 22.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12102,7 +12122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 29.21 0)
+			(at 31.75 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12113,7 +12133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 29.21 0)
+			(at 31.75 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12124,7 +12144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 31.75 29.21 0)
+			(at 31.75 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
