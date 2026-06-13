@@ -7772,16 +7772,6 @@
 		)
 		(uuid "fc486530-8197-4f32-9f1d-ecfd633b0eb1")
 	)
-	(label "5V"
-		(at 31.75 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e501cb6d-579e-40b8-85ad-df01ae72fd47")
-	)
 	(global_label "Temp_SDA"
 		(shape input)
 		(at 139.7 36.83 0)
