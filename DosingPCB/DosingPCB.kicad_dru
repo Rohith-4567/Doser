@@ -1,0 +1,11 @@
+(version 1)
+(rule "Shrink U7 PMIC clearance"
+    (constraint clearance (min 0.12mm))
+    (constraint track_width (min 0.12mm) (max 0.2mm))
+    (condition "A.Parent == 'U7'"))
+
+(rule "Shrink U4 ESD Diode clearance"
+    (constraint clearance (min 0.12mm))
+    (constraint track_width (min 0.12mm))
+    (constraint diff_pair_gap (min 0.12mm))
+    (condition "A.Parent == 'U4'"))
