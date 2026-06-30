@@ -113,7 +113,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -27397,6 +27396,22 @@
 		(uuid "ea70265b-eb54-4002-a668-3260f6224383")
 	)
 	(segment
+		(start 70.5975 88.5975)
+		(end 70.61 88.61)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U7-TS{slash}MR)")
+		(uuid "42a140d5-a812-4f6a-b379-f954ec7833cf")
+	)
+	(segment
+		(start 70.5975 85.77)
+		(end 70.5975 88.5975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(U7-TS{slash}MR)")
+		(uuid "ee287fde-01fb-44dd-a9c4-d9b0cd666fff")
+	)
+	(segment
 		(start 68.68 89.81)
 		(end 70.61 89.81)
 		(width 0.2)
@@ -28307,22 +28322,6 @@
 		(layer "F.Cu")
 		(net "Net-(Q1-B)")
 		(uuid "c949a0f8-0b2c-4c8b-afe4-b6ab02cbba16")
-	)
-	(segment
-		(start 70.5975 88.5975)
-		(end 70.61 88.61)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U7-TS{slash}MR)")
-		(uuid "42a140d5-a812-4f6a-b379-f954ec7833cf")
-	)
-	(segment
-		(start 70.5975 85.77)
-		(end 70.5975 88.5975)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U7-TS{slash}MR)")
-		(uuid "ee287fde-01fb-44dd-a9c4-d9b0cd666fff")
 	)
 	(zone
 		(net "V+")
