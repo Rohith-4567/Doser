@@ -6952,12 +6952,24 @@
 		(uuid "13f3f69d-0cf0-4730-a9f2-065a654bd631")
 	)
 	(no_connect
+		(at 92.71 104.14)
+		(uuid "4393da67-fcc2-4618-892e-2a4b8c3fd919")
+	)
+	(no_connect
 		(at 233.68 148.59)
 		(uuid "51b7e0ac-85e9-4f59-9757-48d4cf8c5b2f")
 	)
 	(no_connect
+		(at 66.04 168.91)
+		(uuid "81a5f052-c155-47ef-a7cf-bfc11ccbb5cb")
+	)
+	(no_connect
 		(at 208.28 133.35)
 		(uuid "8f678195-94a7-404b-9fa4-4da6b18b426d")
+	)
+	(no_connect
+		(at 67.31 124.46)
+		(uuid "a8e7bb50-2753-4112-a3e5-caba21e9ec18")
 	)
 	(no_connect
 		(at 233.68 133.35)
@@ -6966,6 +6978,10 @@
 	(no_connect
 		(at 198.12 125.73)
 		(uuid "dc2edffe-9390-4280-837a-1faa0baeefaa")
+	)
+	(no_connect
+		(at 63.5 168.91)
+		(uuid "dca8de42-ed9d-4115-9159-bbe7909c0d83")
 	)
 	(wire
 		(pts
@@ -7439,16 +7455,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 124.46) (xy 66.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e270a9-1a5d-404f-8387-f564786c17e0")
-	)
-	(wire
-		(pts
 			(xy 219.71 27.94) (xy 223.52 27.94)
 		)
 		(stroke
@@ -7866,16 +7872,6 @@
 			(type default)
 		)
 		(uuid "99cb5227-d03f-4c66-8480-879265633806")
-	)
-	(wire
-		(pts
-			(xy 67.31 124.46) (xy 66.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a939af5-329c-403e-9ab6-854025fab7cd")
 	)
 	(wire
 		(pts
@@ -8435,30 +8431,6 @@
 			)
 		)
 	)
-	(global_label "header conn"
-		(shape input)
-		(at 63.5 168.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1b7871aa-457b-4fbe-b5af-d098b6714836")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 154.0112 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CS"
 		(shape input)
 		(at 92.71 142.24 0)
@@ -8640,30 +8612,6 @@
 		(uuid "71dbf313-784d-41c8-92c6-a4e593334714")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.8014 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "header conn"
-		(shape input)
-		(at 92.71 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8143fc55-a1f7-445a-869e-1cb2fd66d384")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.6088 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
